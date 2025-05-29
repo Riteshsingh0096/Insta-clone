@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="language">English (UK) ▼</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="logo" />
+    
+    <form class="login-form">
+      <input type="text" placeholder="Username, email address or mobile number" value="rakthakur" />
+      <input type="password" placeholder="Password" />
+      <button type="submit">Log in</button>
+    </form>
+
+    <a href="#" class="forgot">Forgotten password?</a>
+    
+    <div class="divider"></div>
+
+    <button class="create-account">Create new account</button>
+    
+    <footer>
+      <p>Meta</p>
+    </footer>
+  </div>
+</body>
+</html>
